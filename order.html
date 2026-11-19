@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | Aman's Shawarma</title>
+</head>
+<body>
+    <header>
+        <p><strong>Aman's Shawarma</strong></p>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="order.html">Order Now</a>
+        </nav>
+    </header>
+
+    <main>
+        <div>
+            <p>Pickup or delivery</p>
+            <h1>Place Your Order</h1>
+        </div>
+
+        <section>
+            <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&w=900&q=85" alt="Fresh shawarma ready to order">
+            <form action="#" method="post">
+                <label>
+                    Name
+                    <input type="text" name="name" placeholder="Your name" required>
+                </label>
+                <label>
+                    Phone
+                    <input type="tel" name="phone" placeholder="Your phone number" required>
+                </label>
+                <label>
+                    Choose a meal
+                    <select name="meal" required>
+                        <option value="">Select item</option>
+                        <option>Chicken Shawarma - $8.99</option>
+                        <option>Beef Shawarma - $10.99</option>
+                        <option>Falafel Wrap - $7.99</option>
+                        <option>Hummus &amp; Pita - $5.99</option>
+                        <option>Garden Salad - $6.49</option>
+                        <option>Fresh Lemonade - $3.49</option>
+                    </select>
+                </label>
+                <label>
+                    Quantity
+                    <input type="number" name="quantity" value="1" min="1" max="20" required>
+                </label>
+                <label>
+                    Special instructions
+                    <textarea name="instructions" rows="4" placeholder="Sauce, spice level, or allergy details"></textarea>
+                </label>
+                <button type="submit">Submit Order</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Aman's Shawarma</p>
+        <a href="mailto:amanualebelete6@gmail.com">amanualebelete6@gmail.com</a>
+    </footer>
+</body>
+</html>
